@@ -1,0 +1,63 @@
+.headr{
+	width: 1265px;
+	height:48px;
+	background:rgb(37,41,46);
+	overflow: hidden;
+}
+.nav{
+	width: 882px;
+	height:48px;
+	background: rgb(37,41,46);
+	margin: 0 auto;
+}
+.logo{
+	width: 73px;
+	height: 31px;
+	background: url(../img/icon.png) no-repeat ;
+	background-size:202%;
+	float: left;
+	margin-top:10px;
+}
+.right{
+	width: 300px;
+	height: 63px;
+	float: right;
+}
+.right li{
+	float: left;
+	line-height: 63px;
+}
+.right .right_nav{
+	width: 300px;
+	height: 48px;
+}
+.login,.register{
+	font-size:10px;
+	padding: 0 5px;
+	color: white;
+}
+.cart,.message,.good{
+	font-size: 8px;
+	color: darkgray;
+	position: relative;
+}
+.right span{
+	margin:10px 10px;
+}
+.drop_cart{
+	width: 300px;
+	height:140px;
+	background:rgb(37,41,46) ;
+	position: absolute;
+	top:90px;
+}
+.drop_cartdown{
+	width: 300px;
+	height: 50px;
+	background:rgb(125,191,222) ;
+	margin-top:90px;
+}
+/*.cart{
+	position: relative;
+	z-index: 30;
+}*/
