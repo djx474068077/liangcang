@@ -2,8 +2,45 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" href="css/Cart.css" />
+		<script type="text/javascript" src="js/myajax.js"></script>
+		<script type="text/javascript" src="js/Cart.js"></script>
 	</head>
 	<body>
+		<ul class="cart-step">
+			<li class="action">购物车</li>
+			<li>结账</li>
+		</ul>
+		
+		<table class="cart-table" id="cart-table">
+			<thead>
+				<th class="cart-box"><input type="checkbox"/>全选</th>
+				<th class="cart-name">良品</th>
+				<th class="cart-num">数量</th>
+				<th class="cart-price">单价</th>
+				<th class="cart-subtotal">小计</th>
+				<th class="cart-operate">操作</th>
+			</thead>
+			
+			<tr class="product">
+				<td><input type="checkbox"/>选择</td>
+				<td><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1121002338,2114518007&fm=27&gp=0.jpg"}/><span>${goodsName}</span></td>
+				<td>
+					<button onclick="changeNum(this)">-</button>
+					<input id="goodsnum" type="text" value="1"/>
+					<button onclick="changeNum(this)">+</button>
+				</td>
+				<td id="goodsprice">${goodsPrice}</td>
+				<td id="goodssubtotal">${goodsNum}*${goodsPrice}</td>
+				<td><a href="">删除</a></td>
+			</tr>
+			
+		</table>
+		<div class="account">
+			<button class="account-btn">结算</button>
+			<p class="total">总计为/<span>￥999.00</span></p>
+		</div>
 	</body>
 </html>
