@@ -1,11 +1,11 @@
 .headr{
-	width: 1265px;
+	width: 100%;
 	height:48px;
 	background:rgb(37,41,46);
-	overflow: hidden;
+	
 }
 .nav{
-	width: 882px;
+	width: 1000px;
 	height:48px;
 	background: rgb(37,41,46);
 	margin: 0 auto;
@@ -20,44 +20,134 @@
 }
 .right{
 	width: 300px;
-	height: 63px;
+	height: 48px;
 	float: right;
 }
 .right li{
 	float: left;
-	line-height: 63px;
 }
 .right .right_nav{
-	width: 300px;
+	width: 320px;
 	height: 48px;
 }
 .login,.register{
 	font-size:10px;
 	padding: 0 5px;
-	color: white;
+	color: rgb(204,204,204);
+	line-height: 48px;
+	margin-right: 10px;
 }
 .cart,.message,.good{
 	font-size: 8px;
 	color: darkgray;
-	position: relative;
+	border-left: 1px solid rgb(204,204,204);
+	padding: 0 20px;
+	height: 22px;
+	margin-top: 14px;
+	line-height: 26px;
 }
-.right span{
-	margin:10px 10px;
+.cart:hover{
+color: whitesmoke;
+}
+.message:hover{
+	color: whitesmoke;
+}
+.good:hover{
+	color: whitesmoke;
 }
 .drop_cart{
 	width: 300px;
-	height:140px;
+	height:100px;
 	background:rgb(37,41,46) ;
 	position: absolute;
-	top:90px;
+	top:22px;
+	left:-153px;
+	display: none;
+	z-index: 20;
+}
+.cart p{
+	text-align:center;
+	font-size:15px;
+	display: block;
+	height: 50px;
+	line-height: 40px;
+	color: rgb(204,204,204);
 }
 .drop_cartdown{
 	width: 300px;
 	height: 50px;
 	background:rgb(125,191,222) ;
-	margin-top:90px;
+	line-height: 50px;
+	display: block;
+	text-align: center; 
+	font-size: 15px;
+	color: rgb(204,204,204);
 }
-/*.cart{
+.cart{
 	position: relative;
-	z-index: 30;
-}*/
+}
+.cart:hover{
+	cursor: pointer;
+}
+.cart:hover .drop_cart{
+	display: block;
+}
+.message{
+	position: relative;
+}
+.drop_message{
+	width:190px;
+	height: 260px;
+	background: rgb(37,41,46);
+	position: absolute;
+	left: -67px;
+	top:21px;
+	display: none;
+	z-index: 20;
+}
+.drop_message li{
+	float: none;
+	height: 40px;
+	line-height: 45px;
+	border-bottom: 1px solid rgb(63,68,73);
+	width: 100px;
+	padding: 0 10px;
+	font-size :12px;
+}
+.message>li:hover{
+	background: grey;
+}
+.message:hover .drop_message{
+	display: block; 
+}
+.nav_bottom{
+	width:1000px;
+	height:40px;
+	margin: 0 auto;
+	box-shadow:0 0 11px 2px #a8a8a8;
+}
+.nav_bottom li{
+	float: left;
+	line-height:40px;
+	font-size:14px;
+	padding: 0 36px;
+	list-style: none;
+}
+.nav_bottom li a{
+	text-decoration: none;
+	color: #020202;
+}
+.nav_bottom li:hover{
+	border-bottom: 2px solid rgb(37,41,46);
+}
+.nav_bottom li:hover a{
+	color: tomato;
+}
+.search{
+	display: block;
+	width: 33px;
+	height: 40px;
+	background: url(../img/icon.png) no-repeat -167px -145px;
+	float: right;
+	padding: 0 5px;
+}

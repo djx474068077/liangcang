@@ -1,0 +1,179 @@
+*{
+	margin:0;
+	padding:0;
+}
+.page-footing{
+	width:100%;
+	margin:0 auto;	
+}
+.A-small-shop-itle{
+    font-size:16px;	
+    font-weight: bold;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+.A-small-shop-itle>i{
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background: url(../img/icon.png) no-repeat -173px -351px;
+    margin-right:10px;
+}
+.A-small-shop-itle>em{
+	display: inline-block;
+	width: 180px;
+	height: 20px;
+	background: url(../img/icon.png) no-repeat 0 -414px;
+}
+
+.service{
+	width:1000px;
+	height:60px;
+	margin:0 auto;	
+	list-style: none;
+	margin-bottom: 40px;		
+}
+.service li{
+	float: left;
+    width:250px;
+	height:60px;
+    font-size:12px;
+    margin-bottom: 80px;   			
+}
+.Left-float-graph{
+	float: left;
+}
+.Left-float-graph i{
+	display: inline-block;
+	width: 55px;
+	height: 60px;
+	background: url(../img/icon.png) no-repeat 0 -355px;
+}
+.left-graph-3 i{
+	background-position: -55px -355px;
+}
+.left-graph-4 i{
+	background-position: -115px -355px;
+}
+.left-graph-2 i{
+	background-position: -150px -220px;
+}
+.Right-word-solution{
+	float: left;
+    margin-top:12px;
+    margin-left: 20px;	
+}
+.dissimilarity{
+    font-size:14px;			
+}
+.End-of-page{
+	width:100%;
+	
+	margin:0 auto;
+	background-color: #25292e;	
+}
+.Content-at-the-end-of-the-page{
+	width:1000px;
+	height:224px;
+	margin:0 auto;
+	color: #5c5c5c;			
+}
+.Client-downloads-and-identification{
+	width:1000px;
+	height:224px;	
+}
+.Client-mobile-download{
+	float: left;
+	position: relative;
+}
+.Client-mobile-download:hover{
+	color: #fff;	
+}
+.Client-mobile-download:hover .Hidden-microcode{
+	display: block;
+}
+.Hidden-microcode{
+	position: absolute;
+	width: 250px;
+	height: 150px;
+	bottom:30px;
+	display: none; 	
+}
+.Hidden-microcode i{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon.png) no-repeat 0 -46px;
+}
+.Hidden-microcode em{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: url(../img/icon.png) no-repeat -100px -46px;
+}
+.Mobile-phone-marker{
+	float: left;
+}
+.Mobile-phone-marker i{
+	display: inline-block;
+	width: 30px;
+	height: 46px;
+	background: url(../img/icon.png) no-repeat -174px 0;
+}
+.Client-English{
+	float: left;
+    margin-left:40px;	
+}
+.Icon-trigger-key{
+	float: right;
+}
+.Icon-trigger-key i{
+	display: inline-block;
+	width: 25px;
+	height: 24px;
+	background: url(../img/icon.png) no-repeat -100px 0;
+}
+.share-key-2 i{
+	background-position: -148px 1px;
+}
+.share-key-3 i{
+	background-position: -125px 1px;
+}
+.WeChat-code em{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	background: url(../img/icon.png) no-repeat 0 -150px;
+}
+.Micro-touch-key{
+	position: relative;	
+}
+.Micro-touch-key:hover{
+    color: #fff;
+}
+.Micro-touch-key:hover .WeChat-code{
+    color: #fff;
+ 	display: block;   
+}
+.WeChat-code{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	bottom:52px;
+	display: none; 	
+}
+.Trigger-color-change{
+	width: 1000px;
+	height: 22px;
+	list-style: none;	
+	padding-top:94px;
+}
+.Trigger-color-change li{
+	padding:0px 5px;
+    float: left;	
+    border-right:1px solid #5c5c5c ;
+}
+.Trigger-color-change li:hover{
+    color: #fff;
+}

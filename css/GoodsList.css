@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0;
+}
+.page{
+	width:100%;
+	margin:0 auto;
+	border-bottom:1px solid #ededed;
+}
+.title-magazine{
+	width:1000px;
+	height:132px;
+	margin:0 auto;
+}
+.title-magazine>p{
+    font-size:21px;
+    font-weight: bold;
+	text-align: center;
+	margin-top: 40px;;
+}
+.title-magazine p>i{
+    font-size:44px;
+
+}
+.All-magazines{
+	width:1000px;
+	height:36px;
+	margin:0 auto;	
+	list-style: none;
+	border-bottom:1px solid #ededed;
+	margin-bottom: 26px;
+}
+.All-magazines li{
+	float: left;
+	padding:0px 10px;
+    font-size:12px;
+    line-height: 36px;;
+}
+.All-magazines li:hover{
+	border-bottom:1px solid #333;
+}
+.Equal-spacing{
+	margin-left:40px;
+}
+.Graphic-display{
+	width:1000px;
+	height:2208px;
+	margin:0 auto;	
+	list-style: none;	
+}
+.Graphic-display li{
+	float: left;
+    width:318px;
+	height:276px;	
+}
+.Equal-spacing0{
+	margin-left:22px;	
+}
+.page-turner{
+	float: right;
+}
+.Paging-device{
+	width:1000px;
+	height:130px;
+	margin:0 auto;			
+}
+.Paging-device>p{
+	float: right;
+	width:580px;
+	height:22px;		
+}

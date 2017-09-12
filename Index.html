@@ -3,29 +3,179 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<link rel="stylesheet" type="text/css" href="css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Index.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 	</head>
 	<body>
-			<div class="headr">
-				<div class="nav">
-					<div class="logo"></div>
-					<div class="right">
-						<div>
-							<ul class="right_nav">
-								<li class="login">登录</li>
-								<li class="register">注册</li>
-								<li class="cart"><span>|</span> 购物车
-									<div class="drop_cart">
-										<div class="drop_cartdown"></div>
-									</div>
-								</li>
-								<li class="message"><span>|</span>消息</li>
-								<li class="good"><span>|</span> 添加良品</li>
-							</ul>
-						</div>
+		<div class="headr">
+			<div class="nav">
+				<div class="logo"></div>
+				<div class="right">
+					<div>
+						<ul class="right_nav">
+							<li class="login">登录</li>
+							<li class="register">注册</li>
+							<li class="cart"> 购物车
+								<div class="drop_cart"><p>您的购物车暂时没有商品</p>
+									<a class="drop_cartdown" href="#"">快去抢购良仓商品吧</a>
+								</div>
+							</li>
+							<li class="message">消息
+							<div class="drop_message">
+								<ul class="message_oUl">
+									<li>动态</li>
+									<li>评论</li>
+									<li>私信</li>
+									<li>粉丝</li>
+									<li>喜欢</li>
+									<li>通知</li>
+								</ul>	
+							</div>
+							</li>
+							<li class="good">添加良品</li>
+						</ul>
 					</div>
 				</div>
 			</div>
+			<div class="nav_bottom" id="menu">
+				<li><a href="#">首页</a></li>
+				<i class="search"></i>
+			</div>
+		</div>
+		
+		<!--轮播图-->
+		<div class="carousel" id="carousel">
+			<div class="btns">
+				<a class="leftBtn"  id="leftBtn"><</a>
+				<a class="rightBtn" id="rightBtn">></a>
+			</div>
+			<div class="imageslist" id="imageslist">
+				<ul>
+					<li class="first"><a><img src="img/banner/1074.jpg" alt="" /></a></li>
+					<li><a><img src="img/banner/1070.jpg" alt="" /></a></li>
+					<li><a><img src="img/banner/1075.jpg" alt="" /></a></li>
+					<li><a><img src="img/banner/1076.jpg" alt="" /></a></li>
+					<li><a><img src="img/banner/1077.jpg" alt="" /></a></li>
+					<li><a><img src="img/banner/1078.jpg" alt="" /></a></li>
+
+				</ul>
+			</div>
+			<div class="circles" id="circles">
+				<ol>
+					<li class="cur"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+			</div>
+		</div>
+		
+		<!--正文部分-->
+		<div class="hot" id="hotgoods">
+			<p class="hot-title">人气良品</p>
+			<div class="hot-goods">
+				<a href="#">
+					<img src=""/>
+					<div class="down-msg">
+						<p>商品名字</p>
+						<span>收藏数量<i></i></span>
+					</div>
+					<div class="miss-box">
+						<span>价格</span>
+						<p>商品简介这里有好多好多的字，我根本打不完 超级多的，不信你看，这几天真的 有点恶心人啊</p>
+					</div>
+				</a>				
+			</div>
+		</div>
+		<button class="more">MORE</button>
+		
+		<!--
+        	作者：474068077@qq.com
+        	时间：2017-09-12
+        	描述：页脚公用部分
+        -->
+		<div class="page-footing">
+			<p class="A-small-shop-itle"><i></i><em></em></p>
+			<ul class="service">
+				<li>
+					<p class="Left-float-graph left-graph-1"><i></i></p>
+					<div class="Right-word-solution">
+						<b class="dissimilarity">全球精品</b>
+						<p>Global Selections</p>
+					</div>
+				</li>
+				<li>
+					<p class="Left-float-graph left-graph-2"><i></i></p>
+					<div class="Right-word-solution">
+						<b class="dissimilarity">正品保证</b>
+						<p>Authenticity Guaranteed</p>
+					</div>					
+				</li>
+				<li>
+					<p class="Left-float-graph left-graph-3"><i></i></p>
+					<div class="Right-word-solution">
+						<b class="dissimilarity">全场包邮</b>
+						<p>Free Delivery</p>
+					</div>					
+				</li>
+				<li>
+					<p class="Left-float-graph left-graph-4"><i></i></p>
+					<div class="Right-word-solution">
+						<b class="dissimilarity">400-897-6336</b>
+						<p>工作日 09:00-18:00</p>
+					</div>					
+				</li>
+			</ul>
+		</div>
+		<div class="End-of-page">
+			<div class="Content-at-the-end-of-the-page">
+				<div class="Client-downloads-and-identification">
+					<div class="Client-mobile-download">
+						<p class="Mobile-phone-marker"><i></i></p>
+						<div class="Client-English">
+							<p>iPhone Android</p>
+							<p>客户端下载</p>
+						</div>
+						<div class="Hidden-microcode">
+							<i></i><em></em>
+						</div>
+					</div>
+					<div class="Icon-trigger-key">
+						<a class="Micro-touch-key share-key-1">
+							<i></i>
+							<div class="WeChat-code">
+							    <em></em>								
+							</div>
+						</a>
+						<a class="share-key-2"><i></i></a>
+						<a class="share-key-3"><i></i></a>
+					</div>
+					<ul class="Trigger-color-change">
+						<li>关于良仓</li>
+						<li>服务协议</li>
+						<li>隐私保护政策</li>
+						<li>使用指南</li>
+						<li>联系我们</li>
+						<li>加入我们</li>
+						<li>友情链接</li>
+						<li>私信良仓</li>
+					</ul>
+					<p>&copy;2013-2015&nbsp;北京良仓文化传播有限公司版权所有&nbsp;京ICP备13010677号-1&nbsp;京公司安备11010502025627</p>
+					<P>&nbsp;公司名称：北京良仓文化传播有限公司&nbsp;电话：010-58263516</P>
+					<P>&nbsp;公司地址：北京朝阳区百子湾路32号6号楼1层60号</P>	
+					<P>&nbsp;社会信用统一代码：91110105059231575L&nbsp;食品许可证：JY11105160159557</P>
+					<p>图书证名称：中华人民共和国出版物经营许可证&nbsp;图书证编号：新出发京零&nbsp;字第&nbsp;朝&nbsp;150051&nbsp;号</p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="components/animate-2.0.1.js"></script>
+		<script type="text/javascript" src="components/myajax.js"></script>
+		<script type="text/javascript" src="js/Index.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
 	</body>
 </html>
