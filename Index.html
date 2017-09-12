@@ -9,6 +9,11 @@
 		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 	</head>
 	<body>
+		<!--
+        	作者：474068077@qq.com
+        	时间：2017-09-12
+        	描述：公用头部
+        -->
 		<div class="headr">
 			<div class="nav">
 				<div class="logo"></div>
@@ -19,7 +24,7 @@
 							<li class="register">注册</li>
 							<li class="cart"> 购物车
 								<div class="drop_cart"><p>您的购物车暂时没有商品</p>
-									<a class="drop_cartdown" href="#"">快去抢购良仓商品吧</a>
+									<a class="drop_cartdown" href="#">快去抢购良仓商品吧</a>
 								</div>
 							</li>
 							<li class="message">消息
@@ -40,8 +45,11 @@
 				</div>
 			</div>
 			<div class="nav_bottom" id="menu">
-				<li><a href="#">首页</a></li>
-				<i class="search"></i>
+				<li><a href="Index.html">首页</a></li>
+				<i class="search" id="search"></i>
+				<div class="search-box" id="search-box">
+					<input id="search-input" type="text" placeholder="请输入搜索内容"/>
+				</div>
 			</div>
 		</div>
 		
@@ -52,14 +60,13 @@
 				<a class="rightBtn" id="rightBtn">></a>
 			</div>
 			<div class="imageslist" id="imageslist">
-				<ul>
-					<li class="first"><a><img src="img/banner/1074.jpg" alt="" /></a></li>
+				<ul id="imagesss">
+					<!--<li class="first"><a><img src="img/banner/1074.jpg" alt="" /></a></li>
 					<li><a><img src="img/banner/1070.jpg" alt="" /></a></li>
 					<li><a><img src="img/banner/1075.jpg" alt="" /></a></li>
 					<li><a><img src="img/banner/1076.jpg" alt="" /></a></li>
 					<li><a><img src="img/banner/1077.jpg" alt="" /></a></li>
-					<li><a><img src="img/banner/1078.jpg" alt="" /></a></li>
-
+					<li><a><img src="img/banner/1078.jpg" alt="" /></a></li>-->
 				</ul>
 			</div>
 			<div class="circles" id="circles">
@@ -175,7 +182,7 @@
 		
 		<script type="text/javascript" src="components/animate-2.0.1.js"></script>
 		<script type="text/javascript" src="components/myajax.js"></script>
-		<script type="text/javascript" src="js/Index.js"></script>
 		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/Index.js"></script>
 	</body>
 </html>
