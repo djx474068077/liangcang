@@ -1,0 +1,108 @@
+.login{
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top:10%;
+}
+h1{
+	display: block;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.ipt{
+	width: 300px;
+	height:100px;
+	text-align:center;
+}
+.username{
+	
+}
+.obtn{
+	width: 300px;
+	height: 40px;
+	text-align: center;
+}
+.btn{
+	width: 260px;
+	height: 35px;
+	text-align: center;
+	border: none;
+}
+.forget{
+	display: block;
+	text-align: right;
+	line-height: 60px;
+	font-size:10px;
+	margin-right: 20px;
+	color: rgb(102,102,107);
+}
+.other_login{
+	width: 151px;
+	height: 51px;
+	float: left;
+	line-height: 51px;
+}
+i{
+	width: 19px;
+	height: 19px;
+	display: block;
+	background: url(../img/QQ-weixin.png) no-repeat;
+	float: left;
+	margin-top: 16px;
+}
+b{
+	width: 19px;
+	height: 19px;
+	display: block;
+	background: url(../img/QQ-weixin.png) no-repeat -19px;
+	float: left;
+	margin-top: 16px;
+}
+.qq,.wechat{
+	width: 26px;
+	height: 19px;
+	display: block;
+	float: left;
+	font-size: 10px;
+	margin-left: 4px;
+	line-height: 51px;
+}
+.line{
+	  color: #ccc;
+	  display: inline-block;
+	  float: left;
+	  padding: 0 10px;
+}
+.register{
+	width: 100px;
+	height: 51px;
+	float: right;
+	line-height: 51px;
+	position: relative;
+}
+u{
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	background: url(../img/pwd-icons-new.png)no-repeat  -103px -74px;
+	top:17px;
+	left: 32px;
+}
+.botm{
+	width: 259px;
+	height: 52px;
+	margin: 0 auto;
+}
+.now{
+	font-size:10px;
+	float: right;
+}
+.pass_error,.use_error{
+	display: block;
+	color: red;
+	font-size:10px;
+	height: 30px;
+	line-height: 30px;
+}

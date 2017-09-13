@@ -3,7 +3,28 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/Register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 	</head>
 	<body>
+	<div class="register">
+		<div class="error">
+		<div class="username"><input type="text" id="username" placeholder="用户名"/></div>
+		<span id="user_error"></span>
+		</div>
+		<div class="error">
+		<div class="password"><input type="text" id="password" placeholder="密码"/></div>
+		<span id="pass_error"></span>
+		</div>
+		<div class="error">
+		<div class="password"><input type="text" id="reapet" placeholder="确认密码"/></div>
+		<span id="error_again"></span>
+		</div>
+		<div class="sub">
+			<input type="submit" class="btn"  value="注册" id="button"/>
+		</div>
+	</div>
+	<script src="components/myajax.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Register.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>

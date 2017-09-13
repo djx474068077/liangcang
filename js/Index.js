@@ -1,4 +1,5 @@
 
+
 //ajax获取广告（轮播图）
 var oUi = document.getElementById('imagesss');
 //ajax第一次请求获取广告位，并判断是否获取到
@@ -43,11 +44,12 @@ myajax.get("http://h6.duchengjiu.top/shop/api_goods.php",{},function(error,respo
 	for(var i=0;i<data.length;i++){
 		var goods_name = data[i].goods_name;
 		var star_num = data[i].star_number;
+		var goods_id = data[i].goods_id;
 		var price = data[i].price;
 		var goods_desc = data[i].goods_desc;
 		var goods_img = data[i].goods_thumb;
 		oHotGoods.innerHTML += `<div class="hot-goods">
-				<a href="">
+				<a href="Detail.html?goods_id=${goods_id}">
 					<img src="${goods_img}"/>
 					<div class="down-msg">
 						<p>${goods_name}</p>

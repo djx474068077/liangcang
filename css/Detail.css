@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Article-details{
+    width:100%;
+    margin:0 auto;
+}
+.Navigation-beacon{
+    width:1000px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    margin:0 auto;   
+}
+.Detailed-graphic-display{
+    width:800px;
+    height:450px;  
+    margin:0 auto;       
+}
+.Details-show{
+    float: left;
+    width:400px;
+    height:450px; 
+    border: 1px solid #f3f3f3;
+}
+.Detail-data-display{
+    float: left;
+    width:380px;
+    height:450px;
+    margin-left:18px; 
+}
+.THE-IRON-STONE-CHINA{
+    margin-top:15px;
+    color: #878787;
+    font-size: 21px;
+}
+.Chinese-Specification{
+    font-size: 20px;
+}
+.price-indication{
+    font-size: 12px;
+}
+.Price-word-change-color{
+    font-size: 21px;
+    color: #5a83ff;
+}
+.Discount-information{
+    width:300px;
+    height:70px;
+    margin-left:40px;
+    font-size: 12px;
+}
+.Discount-label{
+    float: left;
+    width:45px;
+    height:50px;
+}
+.Discount-detail{
+    float: left;
+    width:240px;
+    height:50px;    
+}
+.copyright-protection{
+    float: left;
+}
+
+.Quantity-font0{
+    font-size: 12px;
+    margin-top:35px;    
+}
+.Quantity-font0>input{
+    width:50px;
+    height:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.Quantity-font0 button{
+    width:20px;
+    height:20px;
+    border: 1px solid #000;
+}
+
+.Join-the-shopping-car{
+    width:160px;
+    height:35px;
+    border: 1px solid #000; 
+    background-color: #fff;  
+    margin-top: 10px;    
+}
+.Share-key{
+    width:160px;
+    height:35px;
+    border: 1px solid #000; 
+    background-color: #fff;
+    margin-top: 10px;      
+    margin-left: 8px;             
+}

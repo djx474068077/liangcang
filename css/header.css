@@ -37,6 +37,9 @@
 	line-height: 48px;
 	margin-right: 10px;
 }
+.login a,.register a{
+	color: darkorange;
+}
 .cart,.message,.good{
 	font-size: 8px;
 	color: darkgray;
@@ -44,7 +47,7 @@
 	padding: 0 20px;
 	height: 22px;
 	margin-top: 14px;
-	line-height: 26px;
+	line-height: 22px;
 }
 .cart:hover{
 color: whitesmoke;
@@ -124,7 +127,7 @@ color: whitesmoke;
 	width:1000px;
 	height:40px;
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	margin: 0 auto;
 	box-shadow:0 0 11px 2px #a8a8a8;
 }

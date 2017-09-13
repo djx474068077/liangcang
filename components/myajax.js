@@ -70,3 +70,31 @@
     return arr.join('&');
   }
 })();
+
+
+//获取页面地址的参数值
+function GetRequest() {
+    var url = location.search; //获取url中"?"符后的字串
+    var theRequest = new Object();
+    if (url.indexOf("?") != -1) {
+        var str = url.substr(1);
+        strs = str.split("&");
+        for(var i = 0; i < strs.length; i ++) {
+            theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+        }
+    }
+    return theRequest;
+}
+
+//获取页面地址的参数值
+function getQueryString(name) {
+  var search = location.search.substr(1);
+  //abc=123&a=&ccc=abc
+  //(^|&)   (&|$)
+  //abc=([^&]*)
+  var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+  var result = search.match(reg);
+  // if (result === null) return null;
+  // return decodeURIComponent(result[2]);
+  return result === null ? null : decodeURIComponent(result[2]);
+}

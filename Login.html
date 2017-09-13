@@ -3,7 +3,36 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Login.css"/>
 	</head>
 	<body>
+	<div class="img">
+		<div class="login">
+			<div><h1>账号登录</h1></div>
+			<div class="ipt">
+				<div  class="username"><input type="text" placeholder="请输入您的用户名" id="usename"/></div>
+				<span id="use_error" class="use_error"></span>
+				<div  class="password"><input type="text" placeholder="请输入密码" id="password"/></div>
+				<span id="pass_error" class="pass_error"></span>
+			</div>
+				<span class="forget">忘记密码</span>
+				<div class="obtn">
+				<input type="submit" class="btn" value="登录" id="button" />
+				</div>
+			<div class="botm">
+				<div class="other_login">
+						<i></i><span class="qq">QQ</span>
+						<span class="line">|</span>
+						<b></b><span class="wechat">微信</span>
+				</div>
+				<div class="register">
+					<u></u><span class="now">立即注册</span>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<script src="js/Login.js" type="text/javascript" charset="utf-8"></script>
+	<script src="components/myajax.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 </html>
