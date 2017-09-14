@@ -20,8 +20,11 @@ if(oUsername != undefined){
 	}
 }
 
-
-
+//进入购物车页面
+var oCartBtn = document.getElementsByClassName('cart')[0];
+oCartBtn.onclick = function(){
+	location.href = "Cart.html";
+}
 
 //菜单导航栏
 
