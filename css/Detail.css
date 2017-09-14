@@ -2,29 +2,33 @@
     margin:0;
     padding:0;
 }
-.Article-details{
+.goods_body{
     width:100%;
     margin:0 auto;
 }
-.Navigation-beacon{
+.goods_top{
     width:1000px;
     height: 40px;
     line-height: 40px;
     font-size: 12px;
     margin:0 auto;   
 }
-.Detailed-graphic-display{
+.goods{
     width:800px;
     height:450px;  
     margin:0 auto;       
 }
-.Details-show{
+.goods_left{
     float: left;
-    width:400px;
-    height:450px; 
+    width:300px;
+    height:300px; 
     border: 1px solid #f3f3f3;
 }
-.Detail-data-display{
+#goods_img{
+	width: 100%;
+	height: 100%;
+}
+.goods_right{
     float: left;
     width:380px;
     height:450px;
@@ -35,15 +39,28 @@
     color: #878787;
     font-size: 21px;
 }
-.Chinese-Specification{
-    font-size: 20px;
+.goods_title{
+	color: rgb(135,135,135);
+	font-size:14px;
+	line-height: 40px;
 }
-.price-indication{
+.goods_detail{
     font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
 }
-.Price-word-change-color{
-    font-size: 21px;
+.goods_price{
+    font-size: 12px;
+    color: rgb(135,135,135);
+   line-height: 100px;
+    margin-top: 20px;
+}
+.price{
+    font-size: 15px;
     color: #5a83ff;
+}
+.add,.shob{
+	line-height: 100px;
 }
 .Discount-information{
     width:300px;
@@ -65,31 +82,31 @@
     float: left;
 }
 
-.Quantity-font0{
-    font-size: 12px;
-    margin-top:35px;    
+.goods_number{
+    font-size: 12px; 
+    color: rgb(135,135,135);  
 }
-.Quantity-font0>input{
+.goods_number>input{
     width:50px;
     height:20px;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
 }
-.Quantity-font0 button{
+.goods_number button{
     width:20px;
     height:20px;
     border: 1px solid #000;
 }
 
-.Join-the-shopping-car{
+.add_cart{
     width:160px;
     height:35px;
     border: 1px solid #000; 
     background-color: #fff;  
     margin-top: 10px;    
 }
-.Share-key{
+.buy{
     width:160px;
     height:35px;
     border: 1px solid #000; 

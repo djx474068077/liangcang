@@ -1,0 +1,158 @@
+*{
+	margin:0;
+	padding:0;
+}
+.address-page{
+	width: 100%;
+	margin:0 auto;
+}
+.Shipping-address{
+	width: 1000px;
+	height: 50px;
+	margin:0 auto;
+	line-height: 50px;	
+	border-bottom: 1px solid ;
+}
+.consignee{
+	width: 500px;
+	height:270px;
+	margin:0 auto;	
+}
+.Equal-size{
+	display: inline-block;
+	width: 100px;
+	height:24px;	
+	font-size: 24;
+}
+.Receiving-name{
+	width: 500px;
+	height:24px;
+	margin-top:40px;
+	margin-bottom:30px;		
+}
+.Receiving-name input{
+	width: 200px;
+	height:22px;
+	margin-left:10px;		
+}
+.Provinces{
+	width: 500px;
+	height:24px;
+	margin-bottom:30px;	
+}
+.Provinces select{
+	width: 80px;
+	height:24px;
+	margin-left:10px;
+}
+.detailed-address{
+	width: 500px;
+	height:24px;
+	margin-bottom:30px;	
+}
+.detailed-address input{
+	width: 380px;
+	height:22px;
+	margin-left: 10px;	
+}
+.save-button{
+	width: 500px;
+	height:24px;	
+}
+.save-button button{
+	width: 100px;
+	height:22px;
+	border: 1px solid #27b032;	
+	background-color:#27b032;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 110px;			
+}
+.handset{
+	width: 500px;
+	height:24px;
+	margin-bottom:20px;		
+}
+.handset input{
+	width: 200px;
+	height:22px;
+	margin-left: 10px;	
+}
+.Order-details{
+	width: 1000px;
+	height: 50px;
+	margin:0 auto;
+	line-height: 50px;	
+	border-bottom: 1px solid ;	
+}
+.Form-of-settlement{
+	width: 1000px;
+	margin:0 auto;	
+	border-bottom: 1px solid ;		
+}
+.Item-Data{
+	width: 900px;
+	height:80px;	
+	margin:0 auto;
+	margin-top: 10px;	
+	margin-bottom: 10px;
+	background-color:rgba(249, 255, 0, 0.57);
+	padding:0 50px;
+}
+.Commodity-drawing{
+	display: inline-block;
+	float: left;
+	width: 100px;
+	height:80px;
+	border: 1px solid ;	
+}
+.trade-name{
+	display: inline-block;	
+	float: left;	
+	width:500px;
+	height:80px;
+    line-height: 80px;
+    padding-left: 20px;
+}
+.Commodity-growth{
+	display: inline-block;	
+	float: left;	
+	width:100px;
+	height:80px;
+    line-height: 80px;	
+}
+.Total-commodity{
+	display: inline-block;
+	float: left;		
+	width:100px;
+	height:80px;
+    line-height: 80px;	
+}
+.Total-merchandise{
+	width: 1000px;
+	height:40px;
+	margin:0 auto;		
+}
+.Total-merchandise p{
+	float: right;
+	width: 200px;
+	height:30px;
+	margin-top: 10px;		
+}
+.Total-discoloration{
+	font-size: 24px;
+	color: red;
+}
+.Click-settlement{
+	width: 200px;
+	height:40px;
+	margin:0 auto;		
+}
+.Click-settlement button{
+	width: 200px;
+	height:40px;
+	border: 1px solid blue;	
+	background-color: blue;
+	color: #fff;
+	font-size: 21px;		
+}

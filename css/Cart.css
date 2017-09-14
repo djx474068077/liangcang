@@ -1,12 +1,14 @@
 a{text-decoration: none;}
 tr{text-align: center;}
 .cart-step{
-	width: 180px;
+	width: 250px;
 	height: 20px;
 	margin: 40px auto;
+	padding-top: 20px;
 	font-size: 16px;
 	list-style: none;
-	
+	font-size: 28px;
+	font-weight: 700;
 }
 .cart-step li{
 	padding: 0 20px;
@@ -16,7 +18,7 @@ tr{text-align: center;}
 	border-right: 1px solid black;
 }
 .cart-step .action{
-	color: blue;
+	color: orange;
 }
 .cart-table{
 	width: 1000px;
@@ -35,7 +37,7 @@ tr{text-align: center;}
 	width: 20%;
 }
 
-.cart-table img{
+.product img{
 	width: 80px;
 	height: 80px;
 	float: left;
@@ -43,12 +45,10 @@ tr{text-align: center;}
 .cart-table span{
 	line-height: 80px;
 }
-.cart-table .product{
-	/*display: block;*/
-	height: 80px;
+.cart-table .product td{
+	padding: 10px 0;
 	border-bottom: 2px solid darkgoldenrod;
 	border-top: 2px solid darkgoldenrod;
-	margin: 20px 0;
 }
 #goodsnum{
 	width: 20px;

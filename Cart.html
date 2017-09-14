@@ -4,17 +4,64 @@
 		<meta charset="UTF-8">
 		<title>购物车</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
-		<link rel="stylesheet" href="css/Cart.css" />
-		<script type="text/javascript" src="js/myajax.js"></script>
-		<script type="text/javascript" src="js/Cart.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/Cart.css" />
+		
 	</head>
 	<body>
+		<!--
+        	作者：474068077@qq.com
+        	时间：2017-09-12
+        	描述：公用头部
+       -->
+		<div class="headr">
+			<div class="nav">
+				<div class="logo"></div>
+				<div class="right">
+					<div>
+						<ul class="right_nav">
+							<li class="login"><a href="Login.html">登录</a></li>
+							<li class="register"><a href="Register.html">注册</a></li>
+							<li class="cart"> 购物车
+								<div class="drop_cart"><p>您的购物车暂时没有商品</p>
+									<a class="drop_cartdown" href="#">快去抢购良仓商品吧</a>
+								</div>
+							</li>
+							<li class="message">消息
+							<div class="drop_message">
+								<ul class="message_oUl">
+									<li>动态</li>
+									<li>评论</li>
+									<li>私信</li>
+									<li>粉丝</li>
+									<li>喜欢</li>
+									<li>通知</li>
+								</ul>	
+							</div>
+							</li>
+							<li class="good">添加良品</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="nav_bottom" id="menu">
+				<li><a href="Index.html">首页</a></li>
+				<span class="search" id="search"></span>
+				<div class="search-box" id="search-box">
+					<input id="search-input" type="text" placeholder="请输入搜索内容"/>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
 		<ul class="cart-step">
 			<li class="action">购物车</li>
 			<li>结账</li>
 		</ul>
 		
-		<table class="cart-table" id="cart-table">
+		<table class="cart-table" id="cart-table" cellpadding="0" cellspacing="0">
 			<thead>
 				<th class="cart-box"><input type="checkbox"/>全选</th>
 				<th class="cart-name">良品</th>
@@ -26,7 +73,10 @@
 			
 			<tr class="product">
 				<td><input type="checkbox"/>选择</td>
-				<td><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1121002338,2114518007&fm=27&gp=0.jpg"}/><span>${goodsName}</span></td>
+				<td>
+					<img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1121002338,2114518007&fm=27&gp=0.jpg"}/>
+					<span>${goodsName}</span>
+				</td>
 				<td>
 					<button onclick="changeNum(this)">-</button>
 					<input id="goodsnum" type="text" value="1"/>
@@ -42,5 +92,10 @@
 			<button class="account-btn">结算</button>
 			<p class="total">总计为/<span>￥999.00</span></p>
 		</div>
+		
+		<script type="text/javascript" src="components/animate-2.0.1.js"></script>
+		<script type="text/javascript" src="components/myajax.js"></script>
+		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/Cart.js"></script>
 	</body>
 </html>

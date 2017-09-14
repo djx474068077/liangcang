@@ -13,7 +13,8 @@ if(oUsername != undefined){
 	var oEdit = document.getElementById("edit");
 	oEdit.onclick = function(){
 		if(confirm("确定要退出？")){
-			localStorage.clear();
+			localStorage.clear(); 
+			sessionStorage.clear();
 			location.reload();
 		}
 	}
@@ -35,31 +36,29 @@ myajax.get("http://h6.duchengjiu.top/shop/api_cat.php",{},function(error,respons
 	}
 });
 
-window.onload = function(){
-	
 
 	//搜索框弹出弹入
-	var oSearchBtn = document.getElementById("search");
+	var oSearchBtN = document.getElementById("search");
 	var oSearchBox = document.getElementById("search-box");
 	var oSearchInput = document.getElementById("search-input");
-	console.log(oSearchBtn);
-	oSearchBtn.onclick = function(){
-		alert("dasfs");
+	console.log(oSearchBtN);
+	oSearchBtN.onclick = function(){
+		alert("dgrerthy");
+		console.log("dasfs");
 		animate(oSearchBox,{"right":"0px"},400,"linear",function(){
 			oSearchInput.focus();
 		});
 	};
-	oSearchInput.onfocus = function(){
-		oSearchBtn.onclick = Search();
-		document.onkeydown = function(event){
-			event = event || window.event;
-			if(event.keyCode === 13){
-				Search();
-			}
-		}
-	}
+	//oSearchBtn.onclick = Search();
+//	oSearchInput.onfocus = function(){
+//		document.onkeydown = function(event){
+//			event = event || window.event;
+//			if(event.keyCode === 13){
+//				Search();
+//			}
+//		}
+//	}
 	
-}
 function Search(){
 	myajax.get("",{},function(error,responseText){
 		var json = JSON.parse(responseText);

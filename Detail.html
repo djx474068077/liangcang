@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/header.css"/>
 		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
 		<link rel="stylesheet" type="text/css" href="css/Detail.css">
-		<title></title>
+		<title>商品详情</title>
 	</head>
 	<body>
 		<!--
@@ -55,25 +55,23 @@
 		
 		
 		
-	    <div class="Article-details">
-	        <div class="Navigation-beacon">
+	    <div class="goods_body">
+	        <div class="goods_top">
 	            <span>良仓</span>>
-	            <span id="">美容</span>
+	            <span id="top_child">美容</span>
 	            <!--<span>男士全天候抗老化润肤霜|集合了所有能保护、修复、营养你皮肤的纯天然植物精油</span>-->
 	        </div>
-	        <div class="Detailed-graphic-display">
-	            <div class="Details-show"></div>
-	            <div class="Detail-data-display">
-	              
-	                <p class="THE-IRON-STONE-CHINA">ROYAL APOTHIC</p>
-	                <p class="Chinese-Specification">男士全天候抗老化润肤霜|集合了所有能保护、修复、营养你皮肤的纯天然植物精油【120g】</p>	
-	                <p class="price-indication">价格:<span class="Price-word-change-color">￥520.00元</span><s>￥578.00元</s></p>
-	                
-	               
-	                <p class="Quantity-font0">数量：<button>-</button><input type="text"  placeholder="1"/><button>+</button></p>
-	                
-	                <button class="Join-the-shopping-car">加入购物车</button>
-	                <button class="Share-key">立即购买</button>
+	        <div class="goods" id="goods">
+	            <div class="goods_left" >
+	            	<img src="#" id="goods_img"/>
+	            </div>
+	            <span class="goods_right">
+	                <p class="goods_title" id="goods_title">ROYAL APOTHIC</p>
+	                <p class="goods_detail" id="goods_detail">男士全天候抗老化润肤霜|集合了所有能保护、修复、营养你皮肤的纯天然植物精油【120g】</p>	
+	                <p class="goods_price">价格:￥<span class="price" id="price">520.00</span></p>
+	                <p class="goods_number" >数量：<button id="leftBtn">-</button><input type="text"  value="1" id="numInput" onkeyup="(this.v=function(){this.value=this.value.replace(/[^0-9-]+/,'');}).call(this)" onblur="this.v();"/><button id="rightBtn">+</button></p>	           
+	                <span class="add"><button class="add_cart" id="add_cart">加入购物车</button></span>
+	                <span class="shop"><button class="buy">立即购买</button></span>
 	            </div>
 	        </div>
 	    </div>

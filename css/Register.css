@@ -1,3 +1,9 @@
+.username{
+	display: inline-block;
+	letter-spacing: 15px;
+	font-size: 13px;
+	text-align: right;
+}
 .register{
 	width: 540px;
 	height:240px;
@@ -6,38 +12,19 @@
 .register>div{
 	height: 60px;
 }
-.register input{
-	border: none;
-	outline: none;
-	width: 223px;
-}
-.username{
-	display: block;
-	letter-spacing: 15px;
-	width: 233px;
-	font-size: 13px;
-	border:1px solid darkgoldenrod;
-	padding: 10px;
-	/*text-align: right;*/
-}
 .password{
-	display: block;
-	/*text-align: right;*/
-	width: 233px;
+	display: inline-block;
+	text-align: right;
 	font-size: 13px;
 	letter-spacing: 8px;
-	border:1px solid darkgoldenrod;
-	padding: 10px;
-	
 }
 .sub{
-	width: 263px;
+	width: 235px;
 	float: left;
-	text-align: center;
+
 }
 .btn{
 	width: 263px;
-	padding: 10px;
 
 }
 #user_error,#pass_error,#error_again{
@@ -46,7 +33,7 @@
 	font-size:12px;
 	color: red;
 	border: 1px solid red;
-	display: none;
+	display: block;
 	float: right;
 }
 .error>div{
